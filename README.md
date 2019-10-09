@@ -1,0 +1,1 @@
+# hrd_android_short_course_projects
