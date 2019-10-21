@@ -48,6 +48,7 @@
         android:layout_marginTop="30dp"
         android:background="@color/colorCrimson"
         android:textColor="@color/colorWhite"
-        android:text="@string/btn_login">
+        android:text="@string/btn_login"
+        android:id="@+id/btn_login">
     </Button>
 </LinearLayout>
