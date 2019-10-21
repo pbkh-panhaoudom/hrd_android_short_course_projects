@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/colorForestgreen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_screen_title"
+        android:layout_gravity="center"
+        android:textSize="50sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorWhite">
+    </TextView>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:hint="@string/email"
+        android:textColorHint="@color/colorDarkkhaki"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/EditText_Email"
+        >
+    </EditText>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:hint="@string/password"
+        android:textColorHint="@color/colorDarkkhaki"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/EditText_Password">
+    </EditText>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorCrimson"
+        android:textColor="@color/colorWhite"
+        android:text="@string/btn_login">
+    </Button>
+</LinearLayout>

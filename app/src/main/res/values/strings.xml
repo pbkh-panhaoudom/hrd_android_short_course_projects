@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">homework_1</string>
+
+    <!--    MainActivity-->
+    <string name="btn_login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="btn_create_account">No account yet? Create one</string>
+    <string name="login_screen_title">Login</string>
+</resources>
