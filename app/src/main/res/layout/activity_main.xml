@@ -38,7 +38,8 @@
         android:hint="@string/password"
         android:textColorHint="@color/colorDarkkhaki"
         android:textColor="@color/colorWhite"
-        android:id="@+id/EditText_Password">
+        android:id="@+id/EditText_Password"
+        android:inputType="textPassword">
     </EditText>
 
     <Button
