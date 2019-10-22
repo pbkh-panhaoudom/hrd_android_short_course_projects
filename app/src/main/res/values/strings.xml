@@ -1,10 +1,16 @@
 <resources>
-    <string name="app_name">homework_1</string>
+    <string name="app_name">homework_2</string>
 
     <!--    MainActivity-->
-    <string name="btn_login">Login</string>
-    <string name="email">Email</string>
-    <string name="password">Password</string>
-    <string name="btn_create_account">No account yet? Create one</string>
-    <string name="login_screen_title">Login</string>
+    <string name="ma_btn_register">Register</string>
+    <string name="ma_email">Email</string>
+    <string name="ma_password">Password</string>
+    <string name="ma_login_screen_title">Register</string>
+
+    <!--    ConfirmActivity-->
+    <string name="ca_btn_confirm">Confirm</string>
+    <string name="ca_email">Email</string>
+    <string name="ca_password">Password</string>
+    <string name="ca_input_something">Input something to return back</string>
+    <string name="ca_login_screen_title">Confirmation</string>
 </resources>

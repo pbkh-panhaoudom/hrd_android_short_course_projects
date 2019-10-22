@@ -11,11 +11,35 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/ma_login_screen_title"
+        android:text="@string/ca_login_screen_title"
         android:layout_gravity="center"
         android:textSize="50sp"
         android:layout_marginTop="20dp"
         android:textColor="@color/colorWhite">
+    </TextView>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:hint="@string/ca_email"
+        android:textColorHint="@color/colorDarkkhaki"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/Ca_TextView_Email"
+        >
+    </TextView>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:hint="@string/ca_password"
+        android:textColorHint="@color/colorDarkkhaki"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/Ca_TextView_Password"
+        >
     </TextView>
 
     <EditText
@@ -23,23 +47,11 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
-        android:hint="@string/ma_email"
+        android:hint="@string/ca_input_something"
         android:textColorHint="@color/colorDarkkhaki"
         android:textColor="@color/colorWhite"
-        android:id="@+id/Ma_EditText_Email"
+        android:id="@+id/Ca_input_something"
         >
-    </EditText>
-
-    <EditText
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="30dp"
-        android:hint="@string/ma_password"
-        android:textColorHint="@color/colorDarkkhaki"
-        android:textColor="@color/colorWhite"
-        android:id="@+id/Ma_EditText_Password"
-        android:inputType="textPassword">
     </EditText>
 
     <Button
@@ -49,7 +61,7 @@
         android:layout_marginTop="30dp"
         android:background="@color/colorCrimson"
         android:textColor="@color/colorWhite"
-        android:text="@string/ma_btn_register"
-        android:id="@+id/Ma_btn_rigister">
+        android:text="@string/ca_btn_confirm"
+        android:id="@+id/Ca_btn_confirm">
     </Button>
 </LinearLayout>
