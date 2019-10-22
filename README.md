@@ -1,3 +1,9 @@
+# Homwork 2
+Discription: You have to write the code by including:
+1- Explicit Intent
+2- Pass the data by Intent (Buddle)
+3- Pass the data back by Intent (Buddle)
+
 # how to install Genymotion emulator
 
 1- install on Ubuntu
