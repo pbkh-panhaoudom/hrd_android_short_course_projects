@@ -146,12 +146,12 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_apps_black_24dp"
+                android:src="@drawable/ic_panorama_black_24dp"
                 android:layout_weight="1"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="hello"
+                android:text="Gallery"
                 android:textAlignment="center"/>
         </LinearLayout>
         <LinearLayout
@@ -162,12 +162,12 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_apps_black_24dp"
+                android:src="@drawable/ic_signal_wifi_3_bar_black_24dp"
                 android:layout_weight="1"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="hello"
+                android:text="Wifi"
                 android:textAlignment="center"/>
         </LinearLayout>
         <LinearLayout
@@ -178,12 +178,12 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_apps_black_24dp"
+                android:src="@drawable/ic_note_add_black_24dp"
                 android:layout_weight="1"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="hello"
+                android:text="Note"
                 android:textAlignment="center"/>
         </LinearLayout>
     </LinearLayout>
@@ -200,12 +200,12 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_apps_black_24dp"
+                android:src="@drawable/ic_phone_black_24dp"
                 android:layout_weight="1"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="hello"
+                android:text="Call"
                 android:textAlignment="center"/>
         </LinearLayout>
         <LinearLayout
@@ -216,12 +216,12 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_apps_black_24dp"
+                android:src="@drawable/ic_settings_voice_black_24dp"
                 android:layout_weight="1"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="hello"
+                android:text="Voice Record"
                 android:textAlignment="center"/>
         </LinearLayout>
     </LinearLayout>
@@ -230,11 +230,22 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_weight="2">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/ic_apps_black_24dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_insert_comment_black_24dp"
                 android:layout_weight="1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SMS"
+                android:textAlignment="center"/>
+        </LinearLayout>
 
     </LinearLayout>
 
