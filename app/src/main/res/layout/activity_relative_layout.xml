@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.testing_layout.RelativeLayoutActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select type of feedback"
+        android:id="@+id/title"
+        android:fontFamily="sans-serif-black"
+        android:textSize="25dp"
+        />
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/aaa"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/like"
+        />
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/a037e79b2fb52127537be79110891ae3f"
+        android:layout_below="@+id/title"
+        android:id="@+id/normal"
+        android:layout_alignParentLeft="true"
+        />
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/a960x0"
+        android:layout_below="@+id/title"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Like"
+        android:layout_below="@id/like"
+        android:id="@+id/textlike"
+        android:layout_marginLeft="50dp"
+        android:paddingTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Normal"
+        android:layout_below="@id/normal"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Normal"
+        android:layout_below="@id/normal"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:paddingTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tell us more"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/textlike"
+        android:layout_marginTop="50dp"
+        android:id="@+id/tellUs"
+        android:fontFamily="sans-serif-black"
+        android:textSize="25dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tellUs"
+        android:layout_marginTop="50dp"
+        android:hint="What's your feedback?"
+        android:id="@+id/what"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0/1000"
+        android:layout_below="@id/what"
+        android:layout_alignParentRight="true"
+        />
+
+</RelativeLayout>
